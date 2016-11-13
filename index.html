@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Click the button to change the layout of this paragraph</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Wikipedia-logo-v2-de.svg/180px-Wikipedia-logo-v2-de.svg.png">
+<button onclick="myFunction()">Click Me!</button>
+
+
+<script>
+function myPic() {
+	var p = document.getElementById("pic");
+	p.higth = "100px";
+	p.width ="100px";
+}
+function myFunction() {
+	var x = document.getElementById("demo");
+	x.style.fontSize = "25px";
+	x.style.color ="red";
+	myPic();
+}
+</script>
+
+</body>
+</html>
